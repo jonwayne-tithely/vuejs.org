@@ -321,7 +321,7 @@ There are two common cases where this can be tempting:
 </summary>
 {% endraw %}
 
-When Vue processes directives, `v-for` has a higher priority than `v-if`, so that this template:
+When Vue processes directives, `v-for` has a higher priority than `v-if` when both are present on the same element. That means that this template:
 
 ``` html
 <ul>
